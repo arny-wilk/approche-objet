@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="Bootstrap TP1 terminé">
+    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="Bootstrap TP2 instances et constructeurs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entites/AdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites/AdressePostale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entites/TestPersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites/TestPersonne.java" afterDir="false" />
@@ -51,6 +51,19 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="TestPersonne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="entites.TestPersonne" />
+      <module name="approche-objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="entites.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="approche-objet" />
       <method v="2">
@@ -64,6 +77,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestPersonne" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,7 +97,7 @@
       <workItem from="1684325671079" duration="31000" />
       <workItem from="1684325807017" duration="106000" />
       <workItem from="1684325962169" duration="43000" />
-      <workItem from="1684326066750" duration="3308000" />
+      <workItem from="1684326066750" duration="8849000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap TP1 approche objet">
       <created>1684317667474</created>
@@ -95,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684319201855</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Bootstrap TP2 instances et constructeurs">
+      <created>1684329459109</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684329459109</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +129,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bootstrap TP1 approche objet" />
     <MESSAGE value="Bootstrap TP1 terminé" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap TP1 terminé" />
+    <MESSAGE value="Bootstrap TP2 instances et constructeurs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap TP2 instances et constructeurs" />
   </component>
 </project>
