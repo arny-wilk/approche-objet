@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="Bootstrap TP2 Instances et methodes" />
+    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="Bootstrap TP3 Instances et méthodes">
+      <change afterPath="$PROJECT_DIR$/src/utils/TestMethodeStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -45,7 +49,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestMethodeStatic">
+    <configuration name="TestMethodeStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.TestMethodeStatic" />
+      <module name="approche-objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestPersonne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="entites.TestPersonne" />
       <module name="approche-objet" />
@@ -74,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMethodeStatic" />
         <item itemvalue="Application.TestPersonne" />
       </list>
     </recent_temporary>
@@ -92,7 +110,7 @@
       <workItem from="1684325671079" duration="31000" />
       <workItem from="1684325807017" duration="106000" />
       <workItem from="1684325962169" duration="43000" />
-      <workItem from="1684326066750" duration="9157000" />
+      <workItem from="1684326066750" duration="10072000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap TP1 approche objet">
       <created>1684317667474</created>
@@ -129,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684336057018</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Bootstrap TP3 Instances et méthodes">
+      <created>1684336153493</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684336153494</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Bootstrap TP3 Instances et méthodes">
+      <created>1684336247815</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684336247815</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +183,7 @@
     <MESSAGE value="Bootstrap TP1 terminé" />
     <MESSAGE value="Bootstrap TP2 instances et constructeurs" />
     <MESSAGE value="Bootstrap TP2 Instances et methodes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap TP2 Instances et methodes" />
+    <MESSAGE value="Bootstrap TP3 Instances et méthodes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap TP3 Instances et méthodes" />
   </component>
 </project>
