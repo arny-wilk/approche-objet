@@ -4,12 +4,12 @@ public class AdressePostale {
     int numero_rue;
     String libelle_rue;
     int zipcode;
-    String Ville;
+    String ville;
 
     AdressePostale(int numero_rue, String libelle_rue, int zipcode, String ville) {
         this.numero_rue = numero_rue;
         this.libelle_rue = libelle_rue;
         this.zipcode = zipcode;
-        Ville = ville;
+        this.ville = ville;
     }
 }

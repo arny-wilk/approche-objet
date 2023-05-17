@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="Bootstrap TP1 approche objet">
-      <change afterPath="$PROJECT_DIR$/src/entites/AdressePostale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entites/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entites/TestAdressePostale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entites/TestPersonne.java" afterDir="false" />
+    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="Bootstrap TP1 terminé">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entites/AdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites/AdressePostale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entites/TestPersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites/TestPersonne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entites2/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites2/Personne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +36,35 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/pc/IdeaProjects/approche-objet",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/pc/IdeaProjects/approche-objet/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="approche-objet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="approche-objet" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +73,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684317555073</updated>
-      <workItem from="1684317556442" duration="1291000" />
+      <workItem from="1684317556442" duration="3449000" />
+      <workItem from="1684325091281" duration="397000" />
+      <workItem from="1684325503441" duration="154000" />
+      <workItem from="1684325671079" duration="31000" />
+      <workItem from="1684325807017" duration="106000" />
+      <workItem from="1684325962169" duration="43000" />
+      <workItem from="1684326066750" duration="3308000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap TP1 approche objet">
       <created>1684317667474</created>
@@ -62,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684317667474</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Bootstrap TP1 terminé">
+      <created>1684319201855</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684319201855</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bootstrap TP1 approche objet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap TP1 approche objet" />
+    <MESSAGE value="Bootstrap TP1 terminé" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap TP1 terminé" />
   </component>
 </project>
