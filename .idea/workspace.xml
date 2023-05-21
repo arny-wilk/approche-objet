@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="Bootstrap TP5 Encapsulation">
-      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/CompteTaux.java" afterDir="false" />
+    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="TP6 heritage et constructeur">
+      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/TestOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Credit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Debit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Operation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/TestBanque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestBanque">
+  <component name="RunManager" selected="Application.TestOperation">
     <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestBanque" />
       <module name="approche-objet" />
@@ -78,6 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestOperation" />
+      <module name="approche-objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.banque.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestPersonne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="entites.TestPersonne" />
       <module name="approche-objet" />
@@ -93,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestOperation" />
         <item itemvalue="Application.TestBanque" />
         <item itemvalue="Application.TestPersonne" />
         <item itemvalue="Application.TestMethodeStatic" />
@@ -119,7 +135,7 @@
       <workItem from="1684596299837" duration="95000" />
       <workItem from="1684605053998" duration="1250000" />
       <workItem from="1684664285757" duration="3887000" />
-      <workItem from="1684673095884" duration="9956000" />
+      <workItem from="1684673095884" duration="15079000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap TP1 approche objet">
       <created>1684317667474</created>
@@ -184,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684699216252</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="TP6 heritage et constructeur">
+      <created>1684701668880</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684701668880</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +232,18 @@
     <MESSAGE value="Bootstrap TP3 Instances et méthodes" />
     <MESSAGE value="Bootstrap TP4 Utilisation de methodes static existantes" />
     <MESSAGE value="Bootstrap TP5 Encapsulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap TP5 Encapsulation" />
+    <MESSAGE value="TP6 heritage et constructeur" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP6 heritage et constructeur" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fr/diginamic/banque/TestOperation.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
