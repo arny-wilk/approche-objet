@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="Bootstrap TP4 Utilisation de methodes static existantes">
-      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/TestBanque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Compte.java" afterDir="false" />
+    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="Bootstrap TP5 Encapsulation">
+      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/CompteTaux.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entites/TestPersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites/TestPersonne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/TestBanque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,25 +31,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pc/IdeaProjects/approche-objet&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/pc/IdeaProjects/approche-objet/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/pc/IdeaProjects/approche-objet",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/Users/pc/IdeaProjects/approche-objet/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.TestBanque">
     <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestBanque" />
@@ -119,7 +119,7 @@
       <workItem from="1684596299837" duration="95000" />
       <workItem from="1684605053998" duration="1250000" />
       <workItem from="1684664285757" duration="3887000" />
-      <workItem from="1684673095884" duration="7695000" />
+      <workItem from="1684673095884" duration="9956000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap TP1 approche objet">
       <created>1684317667474</created>
@@ -177,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684337194207</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Bootstrap TP5 Encapsulation">
+      <created>1684699216252</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684699216252</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +208,7 @@
     <MESSAGE value="Bootstrap TP2 Instances et methodes" />
     <MESSAGE value="Bootstrap TP3 Instances et méthodes" />
     <MESSAGE value="Bootstrap TP4 Utilisation de methodes static existantes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap TP4 Utilisation de methodes static existantes" />
+    <MESSAGE value="Bootstrap TP5 Encapsulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap TP5 Encapsulation" />
   </component>
 </project>
