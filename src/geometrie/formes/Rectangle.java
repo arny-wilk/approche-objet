@@ -1,9 +1,10 @@
 package geometrie.formes;
 
+import java.text.DecimalFormat;
+
 public class Rectangle implements ObjetGeometrique {
     double longueur;
     double largeur;
-    private static final String NAME = "Rectangle";
 
     public Rectangle(double longueur, double largeur) {
         this.longueur = longueur;
@@ -11,21 +12,21 @@ public class Rectangle implements ObjetGeometrique {
     }
 
     @Override
-    public double perimetre() {
-        return (longueur + largeur) * 2;
+    public String perimetre() {
+        double num = (longueur + largeur) * 2;
+        return decfor.format(num);
     }
 
     @Override
-    public double surface() {
-        return longueur * largeur;
+    public String surface() {
+        double num = longueur * largeur;
+        return decfor.format(num);
     }
 
     @Override
     public String toString() {
-        return "Rectangle{" +
+        return "Rectangle " +
                 "longueur=" + longueur +
-                ", largeur=" + largeur +
-                ", NAME='" + NAME + '\'' +
-                '}';
+                ", largeur=" + largeur;
     }
 }

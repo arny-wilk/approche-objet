@@ -1,29 +1,30 @@
 package geometrie.formes;
 
+import java.text.DecimalFormat;
+
 public class Cercle implements ObjetGeometrique {
     private static final double PI = Math.PI;
     double rayon;
-    private static final String NAME = "Cercle";
 
     public Cercle(double rayon) {
         this.rayon = rayon;
     }
 
     @Override
-    public double perimetre() {
-        return PI * rayon * 2;
+    public String perimetre() {
+        double num = PI * rayon * 2;
+        return decfor.format(num);
     }
 
     @Override
-    public double surface() {
-        return 2 * PI * Math.pow(rayon, 2);
+    public String surface() {
+        double num = 2 * PI * Math.pow(rayon, 2);
+        return decfor.format(num);
     }
 
     @Override
     public String toString() {
-        return "Cercle{" +
-                "rayon=" + rayon +
-                ", NAME='" + NAME + '\'' +
-                '}';
+        return "Cercle " +
+                "rayon=" + rayon;
     }
 }
