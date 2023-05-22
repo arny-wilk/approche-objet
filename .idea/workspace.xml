@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="TP8 heritage et abstraction">
-      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/TestBigDecimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entites/TestPersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites/TestPersonne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/TestBanque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/TestOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/TestOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Compte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/TestMethodeStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/TestMethodeStatic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +50,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestBigDecimal">
+  <component name="RunManager" selected="Application.TestOperation">
     <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestBanque" />
       <module name="approche-objet" />
@@ -123,9 +118,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestOperation" />
         <item itemvalue="Application.TestBigDecimal" />
         <item itemvalue="Application.TestBanque" />
-        <item itemvalue="Application.TestOperation" />
         <item itemvalue="Application.TestPersonne" />
         <item itemvalue="Application.TestMethodeStatic" />
       </list>
@@ -152,7 +147,7 @@
       <workItem from="1684605053998" duration="1250000" />
       <workItem from="1684664285757" duration="3887000" />
       <workItem from="1684673095884" duration="15881000" />
-      <workItem from="1684738703497" duration="11694000" />
+      <workItem from="1684738703497" duration="13098000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap TP1 approche objet">
       <created>1684317667474</created>
@@ -238,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684707324636</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="TP8 heritage et abstraction">
+      <created>1684757396596</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684757396596</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
