@@ -5,7 +5,18 @@ import fr.diginamic.banque.entites.Debit;
 import fr.diginamic.banque.entites.Operation;
 
 import java.math.BigDecimal;
+import java.nio.charset.StandardCharsets;
+import java.text.DateFormat;
+import java.text.spi.DateFormatProvider;
+import java.time.ZoneId;
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
+import java.time.zone.ZoneRules;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.Locale;
 
 public class TestOperation {
     public static void main(String[] args) {
@@ -27,10 +38,10 @@ public class TestOperation {
         for (Operation compte : tableauOperations) {
             if (compte.getType().equals("DEBIT")) {
                 montantDebit = montantDebit.add(compte.getMontantOperation());
-                System.out.println(compte.getDateOperation() + " " + compte.getType() + " -" + montantDebit);
+                System.out.println(compte.getDateOperation().toInstant().atZone(ZoneId.systemDefault()) + " " + compte.getType() + " -" + montantDebit);
             } else if (compte.getType().equals("CREDIT")) {
                 montantCredit = montantCredit.add(compte.getMontantOperation());
-                System.out.println(compte.getDateOperation() + " " + compte.getType() + " +" + montantCredit);
+                System.out.println(compte.getDateOperation().toInstant().atZone(ZoneId.systemDefault()) + " " + compte.getType() + " +" + montantCredit);
             }
         }
     }

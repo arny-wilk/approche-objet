@@ -1,5 +1,6 @@
 package fr.diginamic.banque.entites;
 
+import javax.print.attribute.DateTimeSyntax;
 import java.math.BigDecimal;
 import java.util.Date;
 
