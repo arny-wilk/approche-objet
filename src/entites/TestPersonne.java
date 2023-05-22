@@ -14,7 +14,6 @@ public class TestPersonne {
 
         addr3.setLibelle_rue("Rue des Tulipes");
 
-        personne1.setAdressePostale(addr3);
         personne1.print();
     }
 }

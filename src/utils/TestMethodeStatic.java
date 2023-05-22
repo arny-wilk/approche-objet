@@ -1,5 +1,6 @@
 package utils;
 
+// Utilisation du nom complet du package où se trouve les méthodes statiques de la classe Integer
 import static java.lang.Integer.parseInt;
 import static java.lang.Integer.max;
 
