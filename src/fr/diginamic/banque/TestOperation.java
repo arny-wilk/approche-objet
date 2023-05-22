@@ -24,13 +24,13 @@ public class TestOperation {
         BigDecimal montantDebit = BigDecimal.valueOf(0);
         BigDecimal montantCredit = BigDecimal.valueOf(0);
 
-        for (int i = 0; i < tableauOperations.length; i++) {
-            if (tableauOperations[i].getType().equals("DEBIT")) {
-                montantDebit = montantDebit.subtract(tableauOperations[i].getMontant_operation());
-                System.out.println(tableauOperations[i].getType() + " " + montantDebit);
-            } else if (tableauOperations[i].getType().equals("CREDIT")) {
-                montantCredit = montantCredit.add(tableauOperations[i].getMontant_operation());
-                System.out.println(tableauOperations[i].getType() + " +" + montantCredit);
+        for (Operation compte : tableauOperations) {
+            if (compte.getType().equals("DEBIT")) {
+                montantDebit = montantDebit.add(compte.getMontantOperation());
+                System.out.println(compte.getDateOperation() + " " + compte.getType() + " -" + montantDebit);
+            } else if (compte.getType().equals("CREDIT")) {
+                montantCredit = montantCredit.add(compte.getMontantOperation());
+                System.out.println(compte.getDateOperation() + " " + compte.getType() + " +" + montantCredit);
             }
         }
     }

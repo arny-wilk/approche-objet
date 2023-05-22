@@ -4,29 +4,29 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 public abstract class Operation {
-    Date date_operation;
-    BigDecimal montant_operation;
+    Date dateOperation;
+    BigDecimal montantOperation;
 
-    public Operation(Date date_operation, BigDecimal montant_operation) {
-        this.date_operation = date_operation;
-        this.montant_operation = montant_operation;
+    public Operation(Date dateOperation, BigDecimal montantOperation) {
+        this.dateOperation = dateOperation;
+        this.montantOperation = montantOperation;
     }
 
     public abstract String getType();
 
-    public Date getDate_operation() {
-        return date_operation;
+    public Date getDateOperation() {
+        return dateOperation;
     }
 
-    public void setDate_operation(Date date_operation) {
-        this.date_operation = date_operation;
+    public void setDateOperation(Date dateOperation) {
+        this.dateOperation = dateOperation;
     }
 
-    public BigDecimal getMontant_operation() {
-        return montant_operation;
+    public BigDecimal getMontantOperation() {
+        return montantOperation;
     }
 
-    public void setMontant_operation(BigDecimal montant_operation) {
-        this.montant_operation = montant_operation;
+    public void setMontantOperation(BigDecimal montantOperation) {
+        this.montantOperation = montantOperation;
     }
 }
