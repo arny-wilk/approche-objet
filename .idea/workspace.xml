@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="TP8 heritage et abstraction">
-      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/TestDateFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/TestOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/TestOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Operation.java" afterDir="false" />
-    </list>
+    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="TP8 Un petit plus exploration des Dates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +144,7 @@
       <workItem from="1684605053998" duration="1250000" />
       <workItem from="1684664285757" duration="3887000" />
       <workItem from="1684673095884" duration="15881000" />
-      <workItem from="1684738703497" duration="23086000" />
+      <workItem from="1684738703497" duration="23368000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap TP1 approche objet">
       <created>1684317667474</created>
@@ -256,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684765567155</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="TP8 Un petit plus exploration des Dates">
+      <created>1684770011462</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684770011462</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +286,7 @@
     <MESSAGE value="TP6 heritage et constructeur" />
     <MESSAGE value="TP7 heritage et abstraction" />
     <MESSAGE value="TP8 heritage et abstraction" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP8 heritage et abstraction" />
+    <MESSAGE value="TP8 Un petit plus exploration des Dates" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP8 Un petit plus exploration des Dates" />
   </component>
 </project>

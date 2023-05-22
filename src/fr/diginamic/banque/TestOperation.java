@@ -5,18 +5,8 @@ import fr.diginamic.banque.entites.Debit;
 import fr.diginamic.banque.entites.Operation;
 
 import java.math.BigDecimal;
-import java.nio.charset.StandardCharsets;
-import java.text.DateFormat;
-import java.text.spi.DateFormatProvider;
 import java.time.ZoneId;
-import java.time.ZoneOffset;
-import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeFormatterBuilder;
-import java.time.zone.ZoneRules;
-import java.util.Arrays;
 import java.util.Date;
-import java.util.Locale;
 
 public class TestOperation {
     public static void main(String[] args) {
