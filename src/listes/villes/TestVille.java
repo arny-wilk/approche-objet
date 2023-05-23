@@ -29,6 +29,9 @@ public class TestVille {
 
     }
 
+    /**
+     * @param villes On met en Majsucule les plus grandes villes
+     */
     private static void toUpperCaseLargestCities(ArrayList<Ville> villes) {
         Iterator<Ville> iter = villes.iterator();
         while(iter.hasNext()){
@@ -41,12 +44,18 @@ public class TestVille {
         villes.forEach(System.out::println);
     }
 
+    /**
+     * @param villes On trouve la plus grande ville
+     */
     private static void biggestCity(ArrayList<Ville> villes) {
         villes.sort(Comparator.comparingInt(Ville::getNbHabitants));
         Ville maximumHabitants = villes.get(villes.size() - 1);
         System.out.println("Ville ayant le plus grand nombre d'habitants : " + maximumHabitants);
     }
 
+    /**
+     * @param villes On enlève la plus petite ville
+     */
     private static void removeSmallestCity(ArrayList<Ville> villes) {
         villes.sort(Comparator.comparingInt(Ville::getNbHabitants));
         Ville smallestCity = villes.get(0);

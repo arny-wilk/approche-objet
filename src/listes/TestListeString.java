@@ -25,6 +25,10 @@ public class TestListeString {
 
     }
 
+    /**
+     * @param villes On enlève les villes qui commencent par la lettre N
+     * @return une nouvelle arrayList de villes filtrées
+     */
     private static ArrayList<String> removeFirstChar(ArrayList<String> villes) {
         Iterator<String> iter = villes.iterator();
         while(iter.hasNext()){
@@ -36,6 +40,9 @@ public class TestListeString {
         return villes;
     }
 
+    /**
+     * @param villes On met les villes en Majuscule
+     */
     private static void toUpperCase(ArrayList<String> villes) {
         Iterator<String> iter = villes.iterator();
         System.out.println("UpperCase all cities : ");
@@ -46,9 +53,13 @@ public class TestListeString {
         }
     }
 
+    /**
+     * @param villes On trouve la ville qui a le plus grand nombre de caractères
+     */
     private static void maximumLength(ArrayList<String> villes) {
-        villes.sort(Comparator.naturalOrder());
-        System.out.println("Maximum Length is : " + villes.get(0));
+        villes.sort(Comparator.comparing(String::length));
+        villes.forEach(System.out::println);
+        System.out.println("Maximum Length is : " + villes.get(villes.size()-1));
     }
 
 }
