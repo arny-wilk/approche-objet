@@ -1,12 +1,11 @@
 package fr.diginamic.banque.entites;
 
-import javax.print.attribute.DateTimeSyntax;
 import java.math.BigDecimal;
 import java.util.Date;
 
 public abstract class Operation {
-    Date dateOperation;
-    BigDecimal montantOperation;
+    private Date dateOperation;
+    private BigDecimal montantOperation;
 
     public Operation(Date dateOperation, BigDecimal montantOperation) {
         this.dateOperation = dateOperation;
@@ -14,6 +13,8 @@ public abstract class Operation {
     }
 
     public abstract String getType();
+
+    public abstract BigDecimal recalculSolde(BigDecimal ancienSolde);
 
     public Date getDateOperation() {
         return dateOperation;
@@ -29,5 +30,12 @@ public abstract class Operation {
 
     public void setMontantOperation(BigDecimal montantOperation) {
         this.montantOperation = montantOperation;
+    }
+
+
+    @Override
+    public String toString() {
+        return "dateOperation=" + dateOperation +
+                ", montantOperation=" + montantOperation;
     }
 }

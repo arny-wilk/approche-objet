@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="TP9 Interfaces">
-      <change afterPath="$PROJECT_DIR$/src/listes/CreationListe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listes/FusionList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listes/TestListeInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listes/TestListeString.java" afterDir="false" />
+    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="TP10 Exercice 3 terminé">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geometrie/formes/Cercle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geometrie/formes/Cercle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geometrie/formes/ObjetGeometrique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geometrie/formes/ObjetGeometrique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geometrie/formes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geometrie/formes/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/TestOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/TestOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Credit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Debit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Debit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Operation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestObjetGeometrique">
+  <component name="RunManager" selected="Application.TestOperation">
     <configuration name="CreationListe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="listes.CreationListe" />
       <module name="approche-objet" />
@@ -125,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestOperation" />
         <item itemvalue="Application.TestObjetGeometrique" />
         <item itemvalue="Application.TestListeInt" />
         <item itemvalue="Application.FusionList" />
         <item itemvalue="Application.CreationListe" />
-        <item itemvalue="Application.TestOperation" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +152,8 @@
       <workItem from="1684664285757" duration="3887000" />
       <workItem from="1684673095884" duration="15881000" />
       <workItem from="1684738703497" duration="23368000" />
-      <workItem from="1684778319153" duration="11263000" />
+      <workItem from="1684778319153" duration="11910000" />
+      <workItem from="1684826899920" duration="7124000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap TP1 approche objet">
       <created>1684317667474</created>
@@ -283,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684790990612</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="TP10 Exercice 3 terminé">
+      <created>1684797188634</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684797188635</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +318,18 @@
     <MESSAGE value="TP8 heritage et abstraction" />
     <MESSAGE value="TP8 Un petit plus exploration des Dates" />
     <MESSAGE value="TP9 Interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP9 Interfaces" />
+    <MESSAGE value="TP10 Exercice 3 terminé" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP10 Exercice 3 terminé" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fr/diginamic/banque/TestOperation.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

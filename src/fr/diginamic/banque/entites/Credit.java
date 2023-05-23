@@ -9,15 +9,12 @@ public class Credit extends Operation {
     }
 
     @Override
-    public String getType() {
-        return "CREDIT";
+    public BigDecimal recalculSolde(BigDecimal ancienSolde){
+        return ancienSolde.add(getMontantOperation());
     }
 
     @Override
-    public String toString() {
-        return "Credit{" +
-                "dateOperation=" + dateOperation +
-                ", montantOperation=" + montantOperation +
-                '}';
+    public String getType() {
+        return "CREDIT";
     }
 }

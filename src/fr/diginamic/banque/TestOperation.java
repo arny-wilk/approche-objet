@@ -22,17 +22,17 @@ public class TestOperation {
         tableauOperations[2] = credit2;
         tableauOperations[3] = debit2;
 
-        BigDecimal montantDebit = BigDecimal.valueOf(0);
-        BigDecimal montantCredit = BigDecimal.valueOf(0);
+        BigDecimal solde = BigDecimal.valueOf(0);
 
         for (Operation compte : tableauOperations) {
-            if (compte.getType().equals("DEBIT")) {
-                montantDebit = montantDebit.add(compte.getMontantOperation());
-                System.out.println(compte.getDateOperation().toInstant().atZone(ZoneId.systemDefault()) + " " + compte.getType() + " -" + montantDebit);
-            } else if (compte.getType().equals("CREDIT")) {
-                montantCredit = montantCredit.add(compte.getMontantOperation());
-                System.out.println(compte.getDateOperation().toInstant().atZone(ZoneId.systemDefault()) + " " + compte.getType() + " +" + montantCredit);
-            }
+            solde = compte.recalculSolde(solde);
+            System.out.println(compte.getDateOperation().toInstant().atZone(ZoneId.systemDefault())
+                    + " "
+                    + compte.getType()
+                    + " "
+                    + compte.getMontantOperation()
+                    + " SOLDE: "
+                    + solde);
         }
     }
 }
