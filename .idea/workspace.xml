@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="TP10 Exercice 3 terminé">
+    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="Refactoring clean code TP 8">
+      <change afterPath="$PROJECT_DIR$/src/listes/villes/TestVille.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listes/villes/Ville.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/TestOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/TestOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Credit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Debit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Debit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/listes/TestListeInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listes/TestListeInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/listes/TestListeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listes/TestListeString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,35 +54,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestOperation">
-    <configuration name="CreationListe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.CreationListe" />
-      <module name="approche-objet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="listes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FusionList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.FusionList" />
-      <module name="approche-objet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="listes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestVille">
     <configuration name="TestListeInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="listes.TestListeInt" />
+      <module name="approche-objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="listes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestListeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listes.TestListeString" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
@@ -120,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestVille" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listes.villes.TestVille" />
+      <module name="approche-objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="listes.villes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestOperation" />
+        <item itemvalue="Application.TestVille" />
+        <item itemvalue="Application.TestListeString" />
         <item itemvalue="Application.TestObjetGeometrique" />
+        <item itemvalue="Application.TestOperation" />
         <item itemvalue="Application.TestListeInt" />
-        <item itemvalue="Application.FusionList" />
-        <item itemvalue="Application.CreationListe" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +153,7 @@
       <workItem from="1684673095884" duration="15881000" />
       <workItem from="1684738703497" duration="23368000" />
       <workItem from="1684778319153" duration="11910000" />
-      <workItem from="1684826899920" duration="7124000" />
+      <workItem from="1684826899920" duration="16286000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap TP1 approche objet">
       <created>1684317667474</created>
@@ -288,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684797188635</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Refactoring clean code TP 8">
+      <created>1684834557215</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1684834557215</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +326,8 @@
     <MESSAGE value="TP8 Un petit plus exploration des Dates" />
     <MESSAGE value="TP9 Interfaces" />
     <MESSAGE value="TP10 Exercice 3 terminé" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP10 Exercice 3 terminé" />
+    <MESSAGE value="Refactoring clean code TP 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring clean code TP 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
