@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="TP10 Terminé (Dernière rectification + commentaires)">
-      <change afterPath="$PROJECT_DIR$/src/sets/TestSetDouble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sets/TestSetString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sets/pays/Pays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sets/pays/TestPays.java" afterDir="false" />
+    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="TP11 HashSets exercice 3 en cours...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sets/TestSetString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sets/TestSetString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sets/pays/Pays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sets/pays/Pays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sets/pays/TestPays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sets/pays/TestPays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +53,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestSetDouble">
-    <configuration name="TestListeInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.TestListeInt" />
+  <component name="RunManager" selected="Application.TestPays">
+    <configuration name="TestListeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listes.TestListeString" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
@@ -68,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestListeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.TestListeString" />
+    <configuration name="TestPays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sets.pays.TestPays" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listes.*" />
+          <option name="PATTERN" value="sets.pays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestSetDouble" />
+        <item itemvalue="Application.TestPays" />
         <item itemvalue="Application.TestSetString" />
+        <item itemvalue="Application.TestSetDouble" />
         <item itemvalue="Application.TestVille" />
         <item itemvalue="Application.TestListeString" />
-        <item itemvalue="Application.TestListeInt" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +152,9 @@
       <workItem from="1684673095884" duration="15881000" />
       <workItem from="1684738703497" duration="23368000" />
       <workItem from="1684778319153" duration="11910000" />
-      <workItem from="1684826899920" duration="22196000" />
+      <workItem from="1684826899920" duration="25025000" />
+      <workItem from="1684869102185" duration="7000" />
+      <workItem from="1684869131685" duration="9475000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap TP1 approche objet">
       <created>1684317667474</created>
@@ -309,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684849082460</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="TP11 HashSets exercice 3 en cours...">
+      <created>1684853738695</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1684853738695</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +351,8 @@
     <MESSAGE value="Refactoring clean code TP 8" />
     <MESSAGE value="TP10 Terminé" />
     <MESSAGE value="TP10 Terminé (Dernière rectification + commentaires)" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP10 Terminé (Dernière rectification + commentaires)" />
+    <MESSAGE value="TP11 HashSets exercice 3 en cours..." />
+    <option name="LAST_COMMIT_MESSAGE" value="TP11 HashSets exercice 3 en cours..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -18,19 +18,20 @@ public class TestSetString {
                 , "Russie"
                 , "Inde"));
 
-        maxLengthCountry(countries);
+        List<String> collect = countries.stream().sorted(Comparator.comparing(String::length)).collect(Collectors.toList());
+
+        maxLengthCountry(collect);
 
         System.out.println("We remove the max length country : ");
-        remmoveCountryMaxLength(countries).forEach(System.out::println);
+        remmoveCountryMaxLength(collect).forEach(System.out::println);
 
     }
 
     /**
      * @param countries On recherche le Pays qui a le plus grand nombre de caractère
      */
-    private static void maxLengthCountry(HashSet<String> countries) {
-        List<String> collect = countries.stream().sorted(Comparator.comparing(String::length)).collect(Collectors.toList());
-        System.out.println("The Country with Max Character length is : " + collect.get(collect.size() - 1));
+    private static void maxLengthCountry(List<String> countries) {
+        System.out.println("The Country with Max Character length is : " + countries.get(countries.size() - 1));
     }
 
 
@@ -38,9 +39,8 @@ public class TestSetString {
      * @param countries On retire le paus ayant le plus grand nombre de caractères du HashSet
      * @return
      */
-    private static List<String> remmoveCountryMaxLength(HashSet<String> countries) {
-        List<String> collect = countries.stream().sorted(Comparator.comparing(String::length)).collect(Collectors.toList());
-        collect.remove(collect.size()-1);
-        return collect;
+    private static List<String> remmoveCountryMaxLength(List<String> countries) {
+        countries.remove(countries.size()-1);
+        return countries;
     }
 }

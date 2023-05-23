@@ -2,13 +2,17 @@ package sets.pays;
 
 public class Pays {
     private String nom;
-    private String nbHabitants;
+    private double nbHabitants;
     private double gdpByHabs;
 
-    public Pays(String nom, String nbHabitants, double gdpByHabs) {
+    public Pays(String nom, double nbHabitants, double gdpByHabs) {
         this.nom = nom;
         this.nbHabitants = nbHabitants;
         this.gdpByHabs = gdpByHabs;
+    }
+
+    public double getTotalGdp(){
+        return nbHabitants*gdpByHabs;
     }
 
     public String getNom() {
@@ -19,11 +23,11 @@ public class Pays {
         this.nom = nom;
     }
 
-    public String getNbHabitants() {
+    public double getNbHabitants() {
         return nbHabitants;
     }
 
-    public void setNbHabitants(String nbHabitants) {
+    public void setNbHabitants(double nbHabitants) {
         this.nbHabitants = nbHabitants;
     }
 
@@ -37,10 +41,8 @@ public class Pays {
 
     @Override
     public String toString() {
-        return "Pays{" +
-                "nom='" + nom + '\'' +
+        return "nom='" + nom + '\'' +
                 ", nbHabitants='" + nbHabitants + '\'' +
-                ", gdpByHabs=" + gdpByHabs +
-                '}';
+                ", gdpByHabs=" + gdpByHabs;
     }
 }
