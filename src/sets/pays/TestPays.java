@@ -23,10 +23,13 @@ public class TestPays {
 
         findLowestTotalGDP(pays);
 
+        System.out.println("Modify the country with lowest GDP : ");
         modifyMin(pays);
         pays.forEach(System.out::println);
-
+        System.out.println();
+        System.out.println("Remove the country with lowest GDP : ");
         removeLowestGDPCountry(pays);
+        System.out.println();
         pays.forEach(System.out::println);
 
     }
@@ -36,8 +39,8 @@ public class TestPays {
         Iterator<Pays> iter = pays.iterator();
         while (iter.hasNext()) {
             Pays pays1 = iter.next();
-            if(pays1 == min.get()){
-                pays.remove(pays1);
+            if(pays1.equals(min.get())){
+                iter.remove();
             }
         }
     }
