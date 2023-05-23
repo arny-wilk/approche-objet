@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="TP10 Terminé">
+    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="TP10 Terminé (Dernière rectification + commentaires)">
+      <change afterPath="$PROJECT_DIR$/src/sets/TestSetDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sets/TestSetString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sets/pays/Pays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sets/pays/TestPays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listes/TestListeInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listes/TestListeInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listes/TestListeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listes/TestListeString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestListeString">
+  <component name="RunManager" selected="Application.TestSetDouble">
     <configuration name="TestListeInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="listes.TestListeInt" />
       <module name="approche-objet" />
@@ -79,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestObjetGeometrique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geometrie.TestObjetGeometrique" />
+    <configuration name="TestSetDouble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sets.TestSetDouble" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="geometrie.*" />
+          <option name="PATTERN" value="sets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestOperation" />
+    <configuration name="TestSetString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sets.TestSetString" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.banque.*" />
+          <option name="PATTERN" value="sets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSetDouble" />
+        <item itemvalue="Application.TestSetString" />
+        <item itemvalue="Application.TestVille" />
         <item itemvalue="Application.TestListeString" />
         <item itemvalue="Application.TestListeInt" />
-        <item itemvalue="Application.TestVille" />
-        <item itemvalue="Application.TestObjetGeometrique" />
-        <item itemvalue="Application.TestOperation" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +153,7 @@
       <workItem from="1684673095884" duration="15881000" />
       <workItem from="1684738703497" duration="23368000" />
       <workItem from="1684778319153" duration="11910000" />
-      <workItem from="1684826899920" duration="17464000" />
+      <workItem from="1684826899920" duration="22196000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap TP1 approche objet">
       <created>1684317667474</created>
@@ -300,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684847674348</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="TP10 Terminé (Dernière rectification + commentaires)">
+      <created>1684849082460</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1684849082460</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +342,8 @@
     <MESSAGE value="TP10 Exercice 3 terminé" />
     <MESSAGE value="Refactoring clean code TP 8" />
     <MESSAGE value="TP10 Terminé" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP10 Terminé" />
+    <MESSAGE value="TP10 Terminé (Dernière rectification + commentaires)" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP10 Terminé (Dernière rectification + commentaires)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
