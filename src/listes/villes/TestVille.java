@@ -3,8 +3,6 @@ package listes.villes;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Iterator;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class TestVille {
     public static void main(String[] args) {

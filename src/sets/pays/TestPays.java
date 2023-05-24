@@ -1,8 +1,9 @@
 package sets.pays;
 
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import java.util.Comparator;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Optional;
 
 public class TestPays {
     public static void main(String[] args) {
@@ -21,7 +22,6 @@ public class TestPays {
 
         findHighestTotalGDP(pays);
 
-        findLowestTotalGDP(pays);
 
         System.out.println("Modify the country with lowest GDP : ");
         modifyMin(pays);
@@ -54,11 +54,6 @@ public class TestPays {
                 pays1.setNom(pays1.getNom().toUpperCase());
             }
         }
-    }
-
-    private static void findLowestTotalGDP(HashSet<Pays> pays) {
-        Optional<Pays> min = pays.stream().min(Comparator.comparingDouble(Pays::getTotalGdp));
-        System.out.println("The country with the lowest Total GDP is : " + min.get().getNom());
     }
 
     private static void findHighestTotalGDP(HashSet<Pays> pays) {

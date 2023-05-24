@@ -40,7 +40,7 @@ public class TestVille2 {
      */
     private static void comparatorName(ArrayList<Ville2> villes) {
         System.out.println("Using ComparatorNom");
-        Collections.sort(villes, (o1, o2) -> new ComparatorNom().compare(o1, o2));
+        Collections.sort(villes, new ComparatorNom());
         villes.forEach(System.out::println);
     }
 
