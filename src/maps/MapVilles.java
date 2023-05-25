@@ -3,6 +3,7 @@ package maps;
 import fichiers.Ville3;
 
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -25,6 +26,9 @@ public class MapVilles {
         for (Ville3 ville : mapVilles.values()){
             System.out.println(ville);
         }
+
+        BigDecimal num = new BigDecimal(123);
+        System.out.println(num);
 
     }
 

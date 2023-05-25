@@ -1,5 +1,7 @@
 package maps;
 
+import java.beans.BeanProperty;
+
 public class Pays2 {
     private String nom;
     private double nbHabitants;
