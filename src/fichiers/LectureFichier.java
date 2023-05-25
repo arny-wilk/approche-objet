@@ -21,7 +21,7 @@ public class LectureFichier {
 
         extractDataFromFile(path, arrayVilles);
 
-        ArrayList<String> newArrayVilles = fillNewArray(path, arrayVilles);
+        ArrayList<String> newArrayVilles = fillNewArray(arrayVilles);
 
         newArrayVilles.forEach(System.out::println);
 
@@ -61,12 +61,9 @@ public class LectureFichier {
         }
     }
 
-    private static ArrayList<String> fillNewArray(Path path, ArrayList<Ville3> arrayVilles) throws IOException {
-        List<String> lines = Files.readAllLines(path, StandardCharsets.UTF_8);
-        String header = lines.get(0);
-        String[] split = header.split(";");
+    private static ArrayList<String> fillNewArray(ArrayList<Ville3> arrayVilles) {
         ArrayList<String> newArray = new ArrayList<>();
-        newArray.add(split[6] + ";" + split[2] + ";" + split[1] + ";" + split[9]);
+        newArray.add("Nom de la Commune;Code de la Région;Nom de la Région;Population Totale");
         for (Ville3 ville : arrayVilles) {
             if (ville.getPopulationTotal() >= 25000.0) {
                 newArray.add(String.valueOf(ville));
