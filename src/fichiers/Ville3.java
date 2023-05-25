@@ -4,9 +4,9 @@ public class Ville3 {
     private String nom;
     private String codeDepartement;
     private String nomRegion;
-    private double populationTotal;
+    private int populationTotal;
 
-    public Ville3(String nom, String codeDepartement, String nomRegion, double populationTotal) {
+    public Ville3(String nom, String codeDepartement, String nomRegion, int populationTotal) {
         this.nom = nom;
         this.codeDepartement = codeDepartement;
         this.nomRegion = nomRegion;
@@ -41,7 +41,7 @@ public class Ville3 {
         return populationTotal;
     }
 
-    public void setPopulationTotal(double populationTotal) {
+    public void setPopulationTotal(int populationTotal) {
         this.populationTotal = populationTotal;
     }
 

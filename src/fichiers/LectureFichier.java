@@ -55,7 +55,7 @@ public class LectureFichier {
                 arrayVilles.add(new Ville3(tokens[6]
                         , tokens[2]
                         , tokens[1]
-                        , Double.parseDouble(tokens[9].trim().replace(" ", "")))
+                        , Integer.parseInt(tokens[9].trim().replace(" ", "")))
                 );
             }
         }

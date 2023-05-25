@@ -39,7 +39,7 @@ public class TestPays {
         Iterator<Pays> iter = pays.iterator();
         while (iter.hasNext()) {
             Pays pays1 = iter.next();
-            if(pays1.equals(min.get())){
+            if(min.isPresent() && pays1.equals(min.get())){
                 iter.remove();
             }
         }
@@ -50,7 +50,7 @@ public class TestPays {
         Iterator<Pays> iter = pays.iterator();
         while (iter.hasNext()) {
             Pays pays1 = iter.next();
-            if(pays1.equals(min.get())){
+            if(min.isPresent() && pays1.equals(min.get())){
                 pays1.setNom(pays1.getNom().toUpperCase());
             }
         }
@@ -58,11 +58,15 @@ public class TestPays {
 
     private static void findHighestTotalGDP(HashSet<Pays> pays) {
         Optional<Pays> max = pays.stream().max(Comparator.comparingDouble(Pays::getTotalGdp));
-        System.out.println("The country with the Highest Total GDP is : " + max.get().getNom());
+        if(max.isPresent()){
+            System.out.println("The country with the Highest Total GDP is : " + max.get().getNom());
+        }
     }
 
     private static void highestGDPperCapita(HashSet<Pays> pays) {
         Optional<Pays> max = pays.stream().max(Comparator.comparingDouble(Pays::getGdpByHabs));
-        System.out.println("The country with the highest GDP per capita : " + max.get());
+        if(max.isPresent()){
+            System.out.println("The country with the highest GDP per capita : " + max.get());
+        }
     }
 }

@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="TP13 terminé">
-      <change afterPath="$PROJECT_DIR$/src/fichiers/CreerFichier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fichiers/LectureFichier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fichiers/Ville3.java" afterDir="false" />
+    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="TP15 terminé">
+      <change afterPath="$PROJECT_DIR$/src/maps/ComptagePaysParContinent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/CreationEtManipulationMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/CreationMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/FusionMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/MapVilles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/Pays2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listes/TestListeInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listes/TestListeInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listes/TestListeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listes/TestListeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listes/villes/TestVille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listes/villes/TestVille.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fichiers/LectureFichier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fichiers/LectureFichier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fichiers/Ville3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fichiers/Ville3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sets/pays/TestPays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sets/pays/TestPays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tri/TestVille2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tri/TestVille2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,38 +39,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pc/IdeaProjects/approche-objet&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/pc/IdeaProjects/approche-objet/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/pc/IdeaProjects/approche-objet-TPcomp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/Users/pc/IdeaProjects/approche-objet/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="maps" />
       <recent name="tri" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LectureFichier">
-    <configuration name="CreerFichier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fichiers.CreerFichier" />
+  <component name="RunManager" selected="Application.ComptagePaysParContinent">
+    <configuration name="ComptagePaysParContinent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maps.ComptagePaysParContinent" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fichiers.*" />
+          <option name="PATTERN" value="maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LectureFichier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fichiers.LectureFichier" />
+    <configuration name="CreationEtManipulationMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maps.CreationEtManipulationMap" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fichiers.*" />
+          <option name="PATTERN" value="maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestListeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.TestListeString" />
+    <configuration name="CreationMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maps.CreationMap" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listes.*" />
+          <option name="PATTERN" value="maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVille" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.villes.TestVille" />
+    <configuration name="FusionMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maps.FusionMap" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listes.villes.*" />
+          <option name="PATTERN" value="maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVille2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tri.TestVille2" />
+    <configuration name="MapVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maps.MapVilles" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tri.*" />
+          <option name="PATTERN" value="maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LectureFichier" />
-        <item itemvalue="Application.CreerFichier" />
-        <item itemvalue="Application.TestVille2" />
-        <item itemvalue="Application.TestListeString" />
-        <item itemvalue="Application.TestVille" />
+        <item itemvalue="Application.ComptagePaysParContinent" />
+        <item itemvalue="Application.MapVilles" />
+        <item itemvalue="Application.FusionMap" />
+        <item itemvalue="Application.CreationEtManipulationMap" />
+        <item itemvalue="Application.CreationMap" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +167,9 @@
       <workItem from="1684826899920" duration="25025000" />
       <workItem from="1684869102185" duration="7000" />
       <workItem from="1684869131685" duration="10933000" />
-      <workItem from="1684911938279" duration="29723000" />
+      <workItem from="1684911938279" duration="30654000" />
+      <workItem from="1684967755835" duration="339000" />
+      <workItem from="1684996627728" duration="17229000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap TP1 approche objet">
       <created>1684317667474</created>
@@ -349,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684924902970</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="TP15 terminé">
+      <created>1684963892066</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1684963892066</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +397,8 @@
     <MESSAGE value="TP11 HashSets exercice 3 en cours..." />
     <MESSAGE value="TP11 HashSets terminé" />
     <MESSAGE value="TP13 terminé" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP13 terminé" />
+    <MESSAGE value="TP15 terminé" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP15 terminé" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
