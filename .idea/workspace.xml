@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="TP15 terminé">
+    <list default="true" id="f3568473-0f05-49f9-8eeb-a0b742259b63" name="Changes" comment="TP12 Maps terminé et Refacto du TP15">
+      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/chaines/TestStringBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fichiers/LectureFichier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fichiers/LectureFichier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maps/MapVilles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maps/MapVilles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maps/Pays2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maps/Pays2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,22 +57,9 @@
       <recent name="tri" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LectureFichier">
+  <component name="RunManager" selected="Application.TestStringBuilder">
     <configuration name="ComptagePaysParContinent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="maps.ComptagePaysParContinent" />
-      <module name="approche-objet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="maps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreationEtManipulationMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="maps.CreationEtManipulationMap" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
@@ -125,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.TestStringBuilder" />
+      <module name="approche-objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.chaines.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestStringBuilder" />
         <item itemvalue="Application.LectureFichier" />
         <item itemvalue="Application.ComptagePaysParContinent" />
         <item itemvalue="Application.MapVilles" />
         <item itemvalue="Application.FusionMap" />
-        <item itemvalue="Application.CreationEtManipulationMap" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +162,9 @@
       <workItem from="1684911938279" duration="30654000" />
       <workItem from="1684967755835" duration="339000" />
       <workItem from="1684996627728" duration="22815000" />
-      <workItem from="1685040599129" duration="1165000" />
+      <workItem from="1685040599129" duration="2722000" />
+      <workItem from="1685048659277" duration="710000" />
+      <workItem from="1685084507950" duration="2302000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap TP1 approche objet">
       <created>1684317667474</created>
@@ -362,7 +362,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685021221475</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="TP12 Maps terminé et Refacto du TP15">
+      <created>1685045728042</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1685045728042</updated>
+    </task>
+    <task id="LOCAL-00030" summary="TP12 Maps terminé et Refacto du TP15">
+      <created>1685047142669</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1685047142669</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +414,8 @@
     <MESSAGE value="TP11 HashSets terminé" />
     <MESSAGE value="TP13 terminé" />
     <MESSAGE value="TP15 terminé" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP15 terminé" />
+    <MESSAGE value="TP12 Maps terminé et Refacto du TP15" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP12 Maps terminé et Refacto du TP15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
